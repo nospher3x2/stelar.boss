@@ -1,1 +1,56 @@
 settings:
+  mysql:
+    host: 127.0.0.1
+    user: root
+    password: root
+    database: server
+  general:
+    limit_per_player: 3 # Limite de boss spawnados pelo jogador
+  swords:
+    '1':
+      name: 'hitkill'
+      damage: 9999999
+      item:
+        friendly-name: '&c&lHITKILL'
+        material: WOOD_SWORD
+        lore:
+          - 'Mata o boss com uma só, tey'
+        glow: true
+  bosses:
+    ice-dragon:
+      name: 'IceDragonAdult' # Nome do arquivo .mpet
+      friendly-name: '&bDragão de Gelo'
+      health: 25000
+      items:
+        '1':
+          material: 310
+          friendly-name: ''
+          amount: 1
+          chance: 100
+          enchants: protection:8,unbreaking:8
+          glow: false
+          lore: ''
+          '2':
+            material: 311
+            friendly-name: ''
+            amount: 1
+            chance: 100
+            enchants: protection:8,unbreaking:8
+            glow: false
+            lore: ''
+          '3':
+            material: 312
+            friendly-name: ''
+            amount: 1
+            chance: 100
+            enchants: protection:8,unbreaking:8
+            glow: false
+            lore: ''
+          '4':
+            material: 313
+            friendly-name: ''
+            amount: 1
+            chance: 100
+            enchants: protection:8,unbreaking:8
+            glow: false
+            lore: ''
